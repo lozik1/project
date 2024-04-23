@@ -1,0 +1,55 @@
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #333;
+}
+
+.btn {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
+
+/* Модальные окна */
+.modal-content {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    color: #333;
+    border-radius: 8px 8px 0 0;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
